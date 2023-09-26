@@ -1,5 +1,7 @@
 # ColorLights
 
+MCU: stm32f103c8t6
+
 ![image-20230926173019878](pic/image-20230926173019878.png)
 
 ![image-20230926172246430](pic/image-20230926172246430.png)
