@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>IMUonFeet</TargetName>
+      <TargetName>ColorLights</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER, STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\FWlib\inc;..\USER;..\FWlib\src;..\CMSIS\startup;..\APP\LED;..\USER;..\APP\DELAY;..\APP\USART3;..\APP\WS2812</IncludePath>
+              <IncludePath>..\CMSIS;..\FWlib\inc;..\USER;..\FWlib\src;..\CMSIS\startup;..\APP\LED;..\USER;..\APP\DELAY;..\APP\USART3;..\APP\WS2812;..\APP\SPI2</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -438,9 +438,9 @@
               <FilePath>..\FWlib\src\stm32f10x_usart.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_spi.c</FileName>
+              <FileName>stm32f10x_tim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\FWlib\src\stm32f10x_spi.c</FilePath>
+              <FilePath>..\FWlib\src\stm32f10x_tim.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,0 +1,136 @@
+Dependencies for Project 'ColorLights', Target 'ColorLights': (DO NOT MODIFY !)
+F (..\CMSIS\startup\startup_stm32f10x_hd.s)(0x6513B064)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list ..\listing\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d)
+F (.\main.c)(0x65741700)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (system.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+I (..\APP\LED\led.h)(0x6513B187)
+I (..\APP\DELAY\delay.h)(0x65740C51)
+I (..\FWlib\inc\misc.h)(0x6513B064)
+I (..\APP\USART3\usart3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdio.h)(0x62BC648B)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x6513B064)
+I (..\APP\WS2812\ws2812.h)(0x657416DD)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x657413B8)
+F (.\stm32f10x_it.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_it.o --omf_browse .\output\stm32f10x_it.crf --depend .\output\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (.\system.h)(0x6513B064)()
+F (..\FWlib\src\stm32f10x_gpio.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_gpio.o --omf_browse .\output\stm32f10x_gpio.crf --depend .\output\stm32f10x_gpio.d)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\FWlib\src\stm32f10x_rcc.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_rcc.o --omf_browse .\output\stm32f10x_rcc.crf --depend .\output\stm32f10x_rcc.d)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+F (..\FWlib\src\misc.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (..\FWlib\inc\misc.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\FWlib\src\stm32f10x_exti.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_exti.o --omf_browse .\output\stm32f10x_exti.crf --depend .\output\stm32f10x_exti.d)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\FWlib\src\stm32f10x_usart.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_usart.o --omf_browse .\output\stm32f10x_usart.crf --depend .\output\stm32f10x_usart.d)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\FWlib\src\stm32f10x_tim.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\stm32f10x_tim.o --omf_browse .\output\stm32f10x_tim.crf --depend .\output\stm32f10x_tim.d)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x657413B8)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\CMSIS\core_cm3.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\core_cm3.o --omf_browse .\output\core_cm3.crf --depend .\output\core_cm3.d)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+F (..\CMSIS\system_stm32f10x.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\system_stm32f10x.o --omf_browse .\output\system_stm32f10x.crf --depend .\output\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\APP\LED\led.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
+I (..\APP\LED\led.h)(0x6513B187)
+I (..\USER\system.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+F (..\APP\DELAY\delay.c)(0x65740C4B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\delay.o --omf_browse .\output\delay.crf --depend .\output\delay.d)
+I (..\APP\DELAY\delay.h)(0x65740C51)
+I (..\USER\system.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+I (..\FWlib\inc\misc.h)(0x6513B064)
+F (..\APP\USART3\usart3.c)(0x6513B064)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\usart3.o --omf_browse .\output\usart3.crf --depend .\output\usart3.d)
+I (..\APP\USART3\usart3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdio.h)(0x62BC648B)
+I (..\USER\system.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x6513B064)
+I (..\FWlib\inc\misc.h)(0x6513B064)
+F (..\APP\WS2812\ws2812.c)(0x6574170A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2-I.\RTE\_ColorLights-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include-ID:\software\keilMDKcore\ARM\CMSIS\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\output\ws2812.o --omf_browse .\output\ws2812.crf --depend .\output\ws2812.d)
+I (..\APP\WS2812\ws2812.h)(0x657416DD)
+I (..\USER\system.h)(0x6513B064)
+I (..\CMSIS\stm32f10x.h)(0x6513B064)
+I (..\CMSIS\core_cm3.h)(0x6513B064)
+I (D:\software\keilMDKcore\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\CMSIS\system_stm32f10x.h)(0x6513B064)
+I (..\USER\stm32f10x_conf.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x6513B064)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x657413B8)

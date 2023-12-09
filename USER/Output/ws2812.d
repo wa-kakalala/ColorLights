@@ -1,0 +1,12 @@
+.\output\ws2812.o: ..\APP\WS2812\ws2812.c
+.\output\ws2812.o: ..\APP\WS2812\ws2812.h
+.\output\ws2812.o: ..\USER\system.h
+.\output\ws2812.o: ..\CMSIS\stm32f10x.h
+.\output\ws2812.o: ..\CMSIS\core_cm3.h
+.\output\ws2812.o: D:\software\keilMDKcore\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ws2812.o: ..\CMSIS\system_stm32f10x.h
+.\output\ws2812.o: ..\USER\stm32f10x_conf.h
+.\output\ws2812.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\output\ws2812.o: ..\CMSIS\stm32f10x.h
+.\output\ws2812.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\output\ws2812.o: ..\FWlib\inc\stm32f10x_tim.h

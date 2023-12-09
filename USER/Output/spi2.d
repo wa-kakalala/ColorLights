@@ -1,0 +1,12 @@
+.\output\spi2.o: E:\IMUonFeet\APP\SPI2\spi2.c
+.\output\spi2.o: E:\IMUonFeet\APP\SPI2\spi2.h
+.\output\spi2.o: ..\USER\system.h
+.\output\spi2.o: ..\CMSIS\stm32f10x.h
+.\output\spi2.o: ..\CMSIS\core_cm3.h
+.\output\spi2.o: D:\software\keilMDKcore\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\spi2.o: ..\CMSIS\system_stm32f10x.h
+.\output\spi2.o: ..\USER\stm32f10x_conf.h
+.\output\spi2.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\output\spi2.o: ..\CMSIS\stm32f10x.h
+.\output\spi2.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\output\spi2.o: ..\FWlib\inc\stm32f10x_spi.h

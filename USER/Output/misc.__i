@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER -I ..\FWlib\src -I ..\CMSIS\startup -I ..\APP\LED -I ..\USER -I ..\APP\DELAY -I ..\APP\USART3 -I ..\APP\WS2812 -I ..\APP\SPI2
+-I.\RTE\_ColorLights
+-ID:\software\keilMDKcore\Pack\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+-ID:\software\keilMDKcore\ARM\CMSIS\Include
+-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d "..\FWlib\src\misc.c"

@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'ColorLights' 
- * Target:  'IMUonFeet' 
+ * Target:  'ColorLights' 
  */
 
 #ifndef RTE_COMPONENTS_H

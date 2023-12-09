@@ -52,8 +52,8 @@ typedef struct
 } TIM_TimeBaseInitTypeDef;
 
 /** 
-  * @brief  TIM Output Compare Init structure definition  
-  */
+* @brief  TIM Output Compare Init structure definition  
+*/
 
 typedef struct
 {

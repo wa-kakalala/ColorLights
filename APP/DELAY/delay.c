@@ -7,7 +7,6 @@
 // when clk of systick is 9MHz ( HCLK/8) --> 1ms reference
 static u32 fac_us;	// the timer value of 1us
 static u32 fac_ms;	// the timer value of 1ms
-static u32 fac_111ns;
 
 /**
  * SysTick Init
@@ -15,25 +14,11 @@ static u32 fac_111ns;
  */
 void SysTick_Init(u8 SYSCLK){
 	SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);	// choose HCLK/8 = 72Mhz /8 = 9MHz
-	fac_us = SYSCLK / 8;	//  72M/ 8 = 9M, SystemCoreClock = 72MHz
+	fac_us = SYSCLK/8 ;	//  72M/ 8 = 9M, SystemCoreClock = 72MHz
 	// current SysTick clk is 9MHz , just after 9 clk , the total time is 1us
 	fac_ms = fac_us * 1000;						 // the timer value of 1ms
-	fac_111ns = 1;                     // the timer value of 111ns
 	// disable SysTick
 	SysTick->CTRL &=~ SysTick_CTRL_ENABLE_Msk;
-}
-
-void delay_n111ns(u32 n111ns){
-	u32 temp;
-	SysTick -> LOAD = n111ns * fac_111ns;		//reload value
-	SysTick -> VAL |= 0x00;		// reset to 0
-	SysTick -> CTRL |= SysTick_CTRL_ENABLE_Msk;		// start timer
-	// conduct whether is zero state
-	do{
-		temp = SysTick -> CTRL;	// timer state value
-	}while(temp & 0x01 && !(temp & (1 << 16)));
-	SysTick -> CTRL &= ~SysTick_CTRL_ENABLE_Msk;	// disable timer
-	SysTick -> VAL |= 0x00;		//reset to 0
 }
 
 /**
