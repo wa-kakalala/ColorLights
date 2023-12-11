@@ -3,14 +3,16 @@
 #include "system.h"
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_tim.h"
+#include "stm32f10x_dma.h"
 
 #define WS2812_ZERO  21
 #define WS2812_ONE   62
 
+typedef unsigned short WS2812_TYPE;
 typedef struct COLOR_TYPE{
-	u8 R;
-	u8 G;
-	u8 B;
+	WS2812_TYPE R;
+	WS2812_TYPE G;
+	WS2812_TYPE B;
 }COLOR_TYPE;
 
 // user operator

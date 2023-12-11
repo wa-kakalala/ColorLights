@@ -12,6 +12,7 @@ SET CPU_CLOCK=0x00B71B00
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_exti.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_usart.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_tim.__i"
+"D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_dma.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\core_cm3.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\system_stm32f10x.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\led.__i"
@@ -19,4 +20,3 @@ SET CPU_CLOCK=0x00B71B00
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\usart3.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmCC" --Via ".\output\ws2812.__i"
 "D:\software\keilMDKcore\ARM\ARMCC\Bin\ArmLink" --Via ".\Output\IMUonFeet.lnp"
-"D:\software\keilMDKcore\ARM\ARMCC\Bin\fromelf.exe" ".\Output\IMUonFeet.axf" --i32combined --output ".\Output\IMUonFeet.hex"

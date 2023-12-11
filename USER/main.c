@@ -11,10 +11,10 @@
 
 
 void SYS_Init(void){
-	SystemInit();	    // config sys clk to 72M 	
+	SystemInit();  // config sys clk to 72M 	
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); 
 	SysTick_Init(72);
-	LED_Init();       // Led Port Init
+	LED_Init();    // Led Port Init
 	USART3_Init(115200);
 	WS2812_Init();
 }
@@ -29,19 +29,18 @@ int main(void)
 	//WS2812_Update();
 	while (1)
 	{
-		delay_ms(500);
-		LED_on();
-		delay_ms(500);
-		LED_off();
-//		if( led_counter == 720000000 ) {
-//			 LED_on();
-//		}else if( led_counter == 600000000 ) {
-//			 LED_off();
-//			 led_counter =0;
-//		}else {
-//		}
-//		led_counter ++;
 
+		
+		
+		
+		if( led_counter == 720000 ) {
+			 LED_on();
+		}else if( led_counter == 600000000 ) {
+			 LED_off();
+			 led_counter =0;
+		}else {
+		}
+		led_counter ++;
 	}
 }
 

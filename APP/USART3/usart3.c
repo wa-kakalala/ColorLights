@@ -22,7 +22,6 @@ void USART3_Init(u32 bound)
 	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_IN_FLOATING;		
 	GPIO_Init(GPIOB,&GPIO_InitStructure);
 	
-
 	//USART3
 	USART_InitStructure.USART_BaudRate = bound;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
